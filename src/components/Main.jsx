@@ -1,4 +1,4 @@
-export function Main() {
+export function Main({children}) {
     return (
          <main>
             MAIN CONTENT - START
