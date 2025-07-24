@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 import logo from '../assets/react.svg';
 
 export function Header() {
