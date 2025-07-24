@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import './bootstrap.min.css';
 import './index.css';
 import { App } from './App.jsx';
 import { BrowserRouter, Route } from 'react-router';
@@ -11,13 +12,13 @@ import { Register } from './pages/Register.jsx';
 import { Error404 } from './pages/Error404.jsx';
 import { Services } from './pages/Services.jsx';
 import { ServiceInner } from './pages/ServiceInner.jsx';
-import { PublicTemplate } from './template/PublicTemplate.jsx';
+import { PublicTemplates } from './templates/PublicTemplates.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route element={<PublicTemplate />}>
+        <Route element={<PublicTemplates />}>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
