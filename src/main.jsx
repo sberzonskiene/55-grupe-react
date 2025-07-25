@@ -25,6 +25,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/services/:service' element={<ServiceInner />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/app' element={<App />} />
           <Route path='*' element={<Error404 />} />
         </Route>
       </Routes>

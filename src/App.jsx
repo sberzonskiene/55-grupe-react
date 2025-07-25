@@ -1,13 +1,10 @@
-import { Header } from "./components/Header";
 import { Main } from "./components/Main";
-import { Footer } from "./components/Footer";
 import { Title } from "./components/Title";
 import { Calc } from "./components/Calc";
 
 export function App() {
   return (
     <>
-      <Header />
       <Main>
         <Title text="Labas rytas!!!" desc="" />
         <div>🟨🟩🟥</div>
@@ -20,8 +17,8 @@ export function App() {
         <Title text="Paslaugos" desc="Teikiamu paslaugu aprasymas" />
         <Title text="Kontaktai" desc="Pasiekiami tik prisijungusiems vartotojams👀" />
       </Main>
-      <Footer />
     </>
   );
 }
 
+//

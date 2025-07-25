@@ -1,7 +1,8 @@
 export function Register() {
     return (
-       <main>
-            REGISTER PAGE
+        <main>
+           REGISTER PAGE
         </main>
+       
     );
 }

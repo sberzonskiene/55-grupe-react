@@ -20,10 +20,13 @@ export function Header() {
                         <NavLink className='nav-link' to='/services'>Services</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className='nav-link' to='/login'>Login</NavLink>
+                        <NavLink className='nav-link' to='/app'>App</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className='nav-link' to='/register'>Register</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className='nav-link' to='/login'>Login</NavLink>
                     </li>
                 </ul>
             </header>
