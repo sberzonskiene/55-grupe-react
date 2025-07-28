@@ -7,7 +7,7 @@ export function About() {
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-4 col-xxl-3">
                        <img src={dogy} alt='img' />
-                       <h1>ABOUT PAGE</h1>
+                       <h1>Cookie clicker</h1>
                     </div>
                 </div>
             </section>  
