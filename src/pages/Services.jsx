@@ -1,7 +1,10 @@
+import { ServicesList } from '../components/services/ServicesList';
+
 export function Services() {
+    const list = ['design', 'development', 'marketing', 'ux'];
     return (
         <main>
-            SERVICES PAGE
+            <ServicesList  services={list}/>
         </main>
     );
 }

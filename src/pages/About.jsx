@@ -1,13 +1,16 @@
 import dogy from '../img/dogy.jpg';
+import { CookieClicker } from '../components/cookie-clicker/CookieClicker';
 
 export function About() {
     return (
        <main>
             <section className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-4 col-xxl-3">
-                       <img src={dogy} alt='img' />
-                       <h1>Cookie clicker</h1>
+                    <div className="col-12">
+                        <div className='cookieClicker'>
+                            <img src={dogy} alt='img' />
+                            <CookieClicker />
+                       </div>
                     </div>
                 </div>
             </section>  
