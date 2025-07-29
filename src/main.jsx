@@ -13,6 +13,7 @@ import { Error404 } from './pages/Error404.jsx';
 import { Services } from './pages/Services.jsx';
 import { ServiceInner } from './pages/ServiceInner.jsx';
 import { PublicTemplates } from './templates/PublicTemplates.jsx';
+import { Todo } from './pages/Todo.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,6 +27,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/app' element={<App />} />
+          <Route path='/todo' element={<Todo />} />
           <Route path='*' element={<Error404 />} />
         </Route>
       </Routes>
