@@ -1,7 +1,7 @@
 import { TextList } from "../components/text-list/TextList";
 
 export function Home() {
-    const list = ['Pomidoras', 'Agurkas', 'Svogunas', 'Cesnakas', 'Bulve'];
+    const list = ['Pomidoras', 'Agurkas', 'Svogūnas', 'Česnakas', 'Bulvė'];
 
     return (
         <main>
