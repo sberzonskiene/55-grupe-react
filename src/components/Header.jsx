@@ -1,4 +1,4 @@
-import import { NavLink } from 'react-router';
+import { NavLink } from 'react-router';
 import logo from '../assets/react.svg';
 import { menuData } from '../data/MenuData';
 
