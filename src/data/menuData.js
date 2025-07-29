@@ -3,6 +3,7 @@ export const menuData = [
     { href: '/todo', text: 'Todo' },
     { href: '/about', text: 'Cookies' },
     { href: '/services', text: 'Services' },
+    { href: '/app', text: 'App' },
     { href: '/login', text: 'Login' },
     { href: '/register', text: 'Register' },
 ];
