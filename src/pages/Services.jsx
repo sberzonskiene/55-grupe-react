@@ -16,9 +16,9 @@ export function Services() {
 
     function handleClick() {
         // setList(currentList => currentList.concat(
-        //     { id: id, value: 'aaaaaaaa' }
+        //     { id: id, value: 'manager' }
         // ));
-        setList(currentList => [...currentList, { id: id, value: 'aaaaaaaa' }]);
+        setList(currentList => [...currentList, { id: id, value: 'manager' }]);
         setId(n => n + 1);
     }
 
