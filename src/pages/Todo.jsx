@@ -9,12 +9,12 @@ export function Todo() {
     const [id, setId] = useState(1);
     const [list, setList] = useState([]);
 
-    useEffect(() => {
+     useEffect(() => {
         const data = JSON.parse(localStorage.getItem(dataKey));
-        console.log(data);
 
-        if (data) {
+        if (data && data.length > 0) {
             setList(data);
+            setId(data.at(-1).id + 1);
         } else {
             localStorage.setItem(dataKey, JSON.stringify(list));
         }
