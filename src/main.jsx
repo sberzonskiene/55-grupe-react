@@ -14,6 +14,8 @@ import { Services } from './pages/Services.jsx';
 import { ServiceInner } from './pages/ServiceInner.jsx';
 import { PublicTemplates } from './templates/PublicTemplates.jsx';
 import { Todo } from './pages/Todo.jsx';
+import { Dashboard } from './pages/Dashboard.jsx';
+import { AdminTemplates } from './templates/AdminTemplates.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,10 +26,17 @@ createRoot(document.getElementById('root')).render(
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/services/:service' element={<ServiceInner />} />
+          <Route path='/app' element={<App />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          <Route path='/app' element={<App />} />
           <Route path='/todo' element={<Todo />} />
+        </Route>
+
+        <Route element={<AdminTemplates />}>
+          <Route path='/dashboard' element={<Dashboard />} />
+        </Route>
+
+        <Route element={<PublicTemplates />}>
           <Route path='*' element={<Error404 />} />
         </Route>
       </Routes>
